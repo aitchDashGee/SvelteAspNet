@@ -38,12 +38,17 @@ export default defineConfig({
             '^/weatherforecast': {
                 target,
                 secure: false
+            },
+            '^/chathub': {
+                target,
+                secure: false,
+                ws: true,
             }
         },
         port: 5173,
         https: {
             key: fs.readFileSync(keyFilePath),
             cert: fs.readFileSync(certFilePath),
-        }
+        },
     }
 });
