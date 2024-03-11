@@ -25,6 +25,9 @@
 			<li aria-current={$page.url.pathname === '/chat' ? 'page' : undefined}>
 				<a href="/chat">Chat</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/3d' ? 'page' : undefined}>
+				<a href="/3d">3D</a>
+			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
