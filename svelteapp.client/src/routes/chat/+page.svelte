@@ -90,6 +90,9 @@
 <div class="text-column">
 	<h1>Chat</h1>
 
+	<p>Using SignalR for realtime chat messaging.</p>
+	<p>Visit <a href="https://learn.microsoft.com/en-us/aspnet/core/signalr">learn.microsoft.com/en-us/aspnet/core/signalr</a> to learn more.</p>
+
 	<form on:submit|preventDefault={sendMessage}>
 		<label for="username">Username</label>
 		<input id="username" type="text" bind:value={username} />

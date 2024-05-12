@@ -13,6 +13,9 @@
 
 <h1>Weather forecast</h1>
 
+<p>Using ASP.NET Core minimal APIs.</p>
+<p>Visit <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis">https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis</a> to learn more.</p>
+
 {#await getWeather()}
 <p>
 	<em>

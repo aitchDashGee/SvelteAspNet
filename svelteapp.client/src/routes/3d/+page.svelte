@@ -3,13 +3,16 @@ import App from './App.svelte'
 </script>
 
 <svelte:head>
-	<title>3D</title>
+	<title>Threlte</title>
 	<meta name="description" content="3D using Threlte and Three.js" />
 </svelte:head>
 
 <h1>
-    3D
+    Threlte
 </h1>
+
+<p>This example is using the excellent library Threlte to do 3D visualization.</p>
+<p>Visit <a href="https://threlte.xyz/">threlte.xyz</a> to learn Threlte.</p>
 
 <div id="root">
   <App />
